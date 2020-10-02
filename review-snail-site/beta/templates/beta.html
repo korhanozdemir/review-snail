@@ -1,0 +1,105 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="    https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
+<title>Review Snail Closed Beta</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="Ar_e0iYRkkRLvogdMLWhQtVBsEXm1j4U7jklycAk_7I" />
+</head>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'beta/style.css' %}">
+<link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+{% block content %}
+<div class="image_header"><div id="logo"><img class="logo" src="{% static 'beta/images/Logo.png' %}" alt=""></div>
+<div id="lang"><button class="no" id="en"></button><button class="no" id="tr"></button></div>
+</div>
+<div id="main">
+   <p class="header try hidden"><SPAN> KAPALI BETA <br></SPAN>Kayıtları Başladı!</p>
+   <p class="midText try hidden"> Tam sürüm yayınlanana kadar <span id="rocksalt">Review Snail'i </span>ücretsiz bir şekilde deneyimlemek için <span>aşağıdaki formu</span> doldurmanız yeterli!
+Başvurunuz onaylandığında şahsınıza kısa bir süre içerisinde bir email gelecektir.</p>  <p class="header eng"><SPAN> CLOSED BETA <br>REGISTRATION<br></SPAN>Has Started!</p>
+   <p class="midText eng">Just sign up from the form below to use <span id="rocksalt">Review Snail </span> <span>FOR FREE</span> untill the general release! You will get an approval mail shortly afterwards.
+</p>
+<div class="form">
+   <form id="form" class="midText" method="post" enctype="multipart/form-data">
+       {% csrf_token %}
+    <label class="try hidden"> Adınız Soyadınız</label>
+    <label class="eng">Full Name</label> <br>
+    <input type="text" name="ad"><br>
+     <label class="try hidden">Şirketinizin İsmi</label>
+     <label class="eng">Company Name</label>  <br>
+    <input type="text" name="comp"><br>
+    <label class="try hidden">Satış Yaptığınız Amazon Kanalı</label>
+    <label class="eng">Amazon region you sell on</label>  <br>
+    <select id="country" name="amazon">
+        <option value="us">Amazon.com</option>
+        <option value="uk">Amazon.co.uk</option>
+        <option value="tr">Amazon.com.tr</option>
+        <option value="de">Amazon.de</option>
+        <option value="au">Amazon.com.au</option>
+        <option value="br">Amazon.co.br</option>
+        <option value="ca">Amazon.ca</option>
+        <option value="cn">Amazon.cn</option>
+        <option value="fr">Amazon.fr</option>
+        <option value="in">Amazon.in</option>
+        <option value="jp">Amazon.co.jp</option>
+        <option value="it">Amazon.it</option>
+        <option value="mx">Amazon.com.mx</option>
+        <option value="es">Amazon.es</option>
+        <option value="nl">Amazon.nl</option>
+        <option value="mx">Amazon.com.mx</option>
+
+    </select> <br>
+        <label class="try hidden">ASIN Listesi </label>
+        <label class="eng">ASIN list</label> <div class="tooltip"><img class="small" src="{% static 'beta/images/i.png' %}" alt="">
+    <div class="right">
+        <p class="try hidden">Lütfen her satıra bir asin gelecek şekilde bir .txt ya da .xls/.xlsx dosyası yükleyiniz.</p>
+        <p class="eng">Please upload a .txt or .xls/.xlsx file with only one ASIN per line.</p>
+        <i></i>
+    </div>
+</div><br>
+        <input class="button" type="file" name="myfile"><br>
+
+    <label class="try hidden"> Bildirimlerin ulaşmasını istediğiniz email adresleri</label>
+    <label class="eng">Emails you want to get the review notifications to</label>
+     <br>
+    <textarea placeholder="example@mail.com, example2@mail.com, example3@mail.com..." cols="30" rows="10" name="emails"></textarea>
+<br>
+    <button type="submit" onclick="if (!confirm('Are you sure?')) return false;">SUBMIT</button>
+    </form></div>
+</div>
+
+<div id="footnote">
+    <p>Ⓒ2020 ReviewSnail.com  <br>All Rights Reserved. <br>info@reviewsnail.com</p>
+</div>
+<script>
+  $('#en').click(function(){
+      $( ".eng" ).removeClass("hidden");
+      $( ".try" ).addClass("hidden");
+
+    });
+     $('#tr').click(function(){
+      $( ".eng" ).addClass("hidden");
+      $( ".try" ).removeClass("hidden");
+    });
+    $('#form').validate({
+    rules: {
+      ad: {
+        required: true
+      },
+      comp: {
+        required: true
+
+      },
+      myfile: {
+        required: true
+
+      },
+      emails: {
+        required: true
+      }}})
+
+</script>
+
+{% endblock %}

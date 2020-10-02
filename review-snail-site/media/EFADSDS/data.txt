@@ -1,0 +1,4 @@
+name: Alper Cankat Sen
+company name: EFADSDS
+emails: alprcnkt@hotmail.com
+amazon: us

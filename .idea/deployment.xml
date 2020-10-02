@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Review Snail - Pythonanywhere" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="Review Snail - Pythonanywhere">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/.local" local="$PROJECT_DIR$/review-snail-bot" web="/" />
+            <mapping deploy="/Reviewsnail" local="$PROJECT_DIR$/review-snail-site" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/.local/yeniler" />
+            <excludedPath path="/.local/veritabanı" />
+            <excludedPath local="true" path="$PROJECT_DIR$/review-snail-bot/databases" />
+            <excludedPath local="true" path="$PROJECT_DIR$/review-snail-bot/Edited" />
+            <excludedPath local="true" path="$PROJECT_DIR$/review-snail-bot/New reviews" />
+            <excludedPath local="true" path="$PROJECT_DIR$/review-snail-bot/veritabanı" />
+            <excludedPath local="true" path="$PROJECT_DIR$/review-snail-bot/yeniler" />
+            <excludedPath path="/.local/databases" />
+            <excludedPath path="/.local/New reviews" />
+            <excludedPath path="/.local/Edited" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

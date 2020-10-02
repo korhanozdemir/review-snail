@@ -1,0 +1,4 @@
+name: Barış Korhan Özdemir
+company name: götüne koyim sefa
+emails: asdfasdf
+amazon: us

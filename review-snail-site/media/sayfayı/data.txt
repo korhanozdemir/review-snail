@@ -1,0 +1,4 @@
+name: Düzelt şu
+company name: sayfayı
+emails: krohable@gmail.com
+amazon: tr

@@ -1,0 +1,6 @@
+import mail.Mail
+
+star="5 star"
+Token="B06XDFL841"
+text = ' <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"><div style=" background-color: white;  width: 693px; border: #cea62c solid 2px; border-radius: 1rem"><div style=""><img src="cid:ust" alt=""></div><div style="font-family: Roboto;font-size: 27pt; text-align: center">You have a new<b style="display: block;" >{} review.</b></div><div style="text-align: center; margin: 115px;"><a style="border: 14px solid #f5edd5;background-color: #bd3535;color: white;padding: 61px 14px;font-size: 35px;font-family: roboto;border-radius: 100%; text-decoration:none;" href="https://www.amazon.com/product-reviews/{}/ref=cm_cr_othr_d_btm?ie=UTF8&reviewerType=all_reviews&sortBy=recent#R2OYJFRLIO5YER" ><b>Check it!</b></a></div><div ><img src="cid:alt" alt=""></div></div></div><div style="font-family: Roboto; font-size: 8pt; color: darkgray; text-align: center; width: 693px;"><p>Copyright Ⓒ ReviewSnail.com, 2018 <br>All Rights Reserved. <br>info@reviewsnail.com</p></div>'.format(star,Token)
+mail.Mail.send(text)

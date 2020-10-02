@@ -1,0 +1,19 @@
+Sd7-rpU-paT-jTp
+/home/admin/web/teahomework.hdavip.net/public_html/
+
+created at ve updated at timezone 0 olarak dönüyor. onları çevirip al.
+timerı düzelt - düzelttim bile haha
+questionarea getdatayı çağırmıyor başta. ilk soru ona göre gelirse problem olur
+
+type 0da cevap yerleştirme problemi ve boş bırakınca eski cevap kalıyor onu da düzeltmek lazım
+
+srcler patlayınca yerine bi item göster
+
+type 0ı baştan planlamak gerekebilir
+liste ters sıralansın
+type 3,5 arka arkaya geldiğinde cevaplar öbürüne de geliyor
+type 4 cevaplı geliyor 
+bazı infolar gözükmüyor - inf type ı html desteklemiyorsa indirt
+Threshold yükselt type 2 threshold probleminde cevap yerleştirmede de problem yapıyor
+type 2 usedatada problem oluyor bazen hepsi aynı yere toplaşıyor(remove matchingte sıkıntı var büyük ihtimalle)
+type 2 başka bir yere koymana rağmen sanki öbürünün üstüne koymuş gibi öbürünü kenara atıyor 

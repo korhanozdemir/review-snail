@@ -1,0 +1,298 @@
+
+@font-face {
+    font-family: "Rubik medium";
+    src: url(Rubik/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: "Rock salt";
+    src: url(Rubik/RockSalt.ttf);
+}
+body{
+    font-family: Open Sans;
+    margin: 0;
+}
+.step-1{
+    background: url("images/1.png") no-repeat
+
+}
+.step-2{
+    background: url("images/2.png") no-repeat
+
+}
+.step-3{
+    background: url("images/3.png") no-repeat
+
+}
+
+.instagram{
+    background: url("images/001-instagram.png") no-repeat
+
+}
+.facebook{
+     background: url("images/002-facebook.png") no-repeat
+
+ }
+.linkedIn{
+      background: url("images/003-linkedin.png") no-repeat
+
+  }
+.lang-header{
+    width: 45%;
+    position: relative;
+    margin: auto;
+    height: 30px;
+}
+.lang-group{
+    position: absolute;
+    right: 0;
+    background-color:#f7f7f7 ;
+    padding: 2px 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.lang-button{
+    width: 19px;
+    height: 19px;
+    background-size: 19px;
+    background-repeat: no-repeat ;
+    border: none;
+    border-radius: 10px;
+
+}
+.tur{
+    background-image: url("images/tr.png")
+}
+.en{
+    background-image: url("images/en.png")
+}
+.logo-header{
+    height: 150px;
+}
+.logo{
+    background-image: url("images/Logo.png");
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+    background-size: 180px;
+    margin: auto ;
+}
+.snail-group{
+    height: 350px;
+    width: 100%;
+    margin: 50px auto;
+}
+.snail-main-title-div{
+    background-image: url("images/Snail.png");
+    height: 100%;
+    background-size: 550px;
+    background-repeat: no-repeat ;
+    position: relative;
+    background-position: 175px;
+    margin-top: 30px;
+}
+.main-title{
+    height: 50%;
+    line-height: 1.1;
+    width: 65%;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+}
+.main-title-black{
+    font-family: Rubik medium;
+}
+.main-title-green{
+    font-family: Rock salt;
+    color: #2af433;
+}
+.middle-page{
+    width: 45%;
+    margin: auto;
+    padding-top: 30px;
+}
+.mid-title{
+    font-weight: bold;
+    font-size: 23pt;
+    padding-bottom: 18px;
+}
+.mid-text{
+    font-size: 14pt;
+    line-height: 1.6;
+}
+.mid-text span{
+    margin-bottom: 10px;
+    display: block;
+    color: #737272;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.instruction-card{
+    margin: 40px auto;
+    min-width: 520px;
+}
+.card-header{
+    height: 60px;
+    background-color: #5f57d6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-header-title{
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.card-body{
+    background-color: #f4f4f4;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 60px;}
+.card-part{
+    display: flex;
+    height: 33%;
+}
+.steps{
+    background-size: 45px;
+    height: 45px;
+    width: 45px;
+    margin: auto;
+}
+.step-text-icon{
+    display: flex;
+}
+.step-text{
+    margin: auto;
+    font-size: 13pt;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.icons{
+    height: 110px;
+    width: 110px;
+    margin: auto;
+}
+.listing-icon{
+    background: url("images/listings.png") no-repeat;
+    background-size: 110px;
+    margin-right: 0;
+}
+.email-icon{
+    background: url("images/email.png") no-repeat;
+    background-size: 110px;
+    margin-left: 0;
+}
+.bell-icon{
+    background: url("images/bell.png") no-repeat;
+    background-size: 110px;
+    margin-right: 0;
+}
+.buying-options{
+    height: 136px;
+    padding: 18px;
+    background-color: #f4f4f4;
+    border-radius: 100px;
+    margin: 50px 0;
+    display: flex;
+}
+.money-snail{
+    background-size: 129px;
+    height: 133px;
+    width: 133px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url(images/money-snail.png);
+}
+.buying-options-button{
+    background-color: #ff5555;
+    border: none;
+    color: white;
+    height: 57px;
+    width: 240px;
+    margin: auto;
+    border-radius: 115px;
+    font-size: 17pt;
+    font-weight: bold;
+    line-height: 57px;
+
+ }
+.buying-options-button-small{
+    background-color: #ff5555;
+    border: none;
+    color: white;
+    height: 47px;
+    width: 149px;
+    font-size: 15pt;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 25px;
+    font-weight: bold;
+    line-height: 47px;
+
+}
+.footer{
+    height: 85px;
+    border-top: 4px solid #5f57d6;
+    background-color: #f4f4f4;
+}
+.footer-group{
+    width: 45%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+}
+.footer-group div{
+    margin: auto;
+}
+.footer-logo{
+    margin: auto;
+    height: 42px;
+    width: 60px;
+    background-size: 60px;
+    background-image: url("images/Logo-footer.png");
+    background-repeat: no-repeat;
+
+}
+.footer-logo-text{
+    display: flex;
+}
+.trademark{
+    font-size: 10pt;
+    padding-left: 10px;
+}
+.social-media button{
+    height: 25px;
+    width: 25px;
+    background-size: 25px;
+    border: none;
+    margin-right: 8px;}
+.unchosen-lang{
+    background-color: black;
+    background-blend-mode: luminosity;
+}
+button{
+    cursor: pointer;
+}
+a.btn{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial;
+}
+.btn{
+    transition: transform 250ms ease-in-out,
+                opacity 250ms linear;
+    outline: none;
+}
+.btn:hover,.btn:focus{
+    transform: scale(1.1);
+    opacity: .9;
+}

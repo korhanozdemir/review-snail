@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>7
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Review Snail</title>
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'index/main.css' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet"></head>
+
+<body>
+<div class="lang-header">
+    <div class="lang-group">
+        <button class=" tur lang-button unchosen-lang" id ="tur" onclick="chooseLang(this)"></button>
+        <button class=" en lang-button "id ="en" onclick="chooseLang(this)"></button>
+    </div>
+</div>
+<div class="logo-header">
+    <div class="logo"></div>
+</div>
+<div class="snail-group">
+    <div class="snail-main-title-div">
+        <div class="main-title">
+            <p class="main-title-black"> The Snail tracks <br> customer reviews</p>
+            <p class="main-title-green">for you!</p>
+            <a class="buying-options-button-small btn" href="/beta">JOIN NOW
+            </a>
+        </div>
+    </div>
+</div>
+<div class="middle-page">
+<div class="mid-text-group">
+    <p class="mid-title">What is Review Snail?</p>
+    <p class="mid-text"><span>Review Snail keeps you notified with your customer reviews all the time! We check every single one of your Amazon products for you any recent review and send you a cute little email </span><span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span><span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.. </span> </p>
+</div>
+<div class="instruction-card">
+<div class="card-header">
+    <p class="card-header-title"> It is that simple:</p>
+</div>
+    <div class="card-body">
+        <div class="card-part">
+            <div class="step-text-icon"><div class="step-1 steps"></div>
+            <div class="step-text">Provide the ASIN list.</div></div>
+            <div class="listing-icon icons"></div>
+        </div>
+        <div class="card-part">
+            <div class="email-icon icons"></div>
+            <div class="step-text-icon"> <div class="step-2 steps"> </div>
+            <div class="step-text">Specify your contact info.</div></div>
+        </div>
+        <div class="card-part">
+            <div class="step-text-icon">
+            <div class="step-3 steps"></div>
+            <div class="step-text">Start receiving notifications!</div></div>
+            <div class="bell-icon icons"></div>
+        </div>
+    </div>
+</div>
+    <div class="buying-options">
+        <div class="money-snail"></div>
+        <a class="buying-options-button btn" href="/beta">JOIN FOR FREE
+        </a>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-group">
+    <div class="footer-logo-text">
+        <div class="footer-logo"></div>
+        <div class="trademark">© 2020 Review Snail. All rights reserved.</div></div>
+    <div class="social-media">
+        <button class="instagram" onclick="window.open('https://www.instagram.com/reviewsnail','_blank');" type="button"></button>
+        <button class="facebook" onclick="window.open('https://www.facebook.com/reviewsnail','_blank');" type="button"></button>
+        <button class="linkedIn" onclick="window.open('https://www.linkedin.com/company/review-snail','_blank');" type="button">
+        </button>
+    </div></div>
+</div>
+</body>
+</html>
+<script src="{% static 'index/main.js' %}"></script>

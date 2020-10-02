@@ -1,0 +1,48 @@
+================== INVOICE ==================
+Tax date:       8 August 2018
+Invoice number: PA0169539
+
+
+
+This invoice is for your records, payment will occur automatically, and no action is necessary on your part.
+
+
+Invoice from:
+PythonAnywhere LLP
+17a Clerkenwell Road
+London EC1M 5RD
+United Kingdom
+VAT No.: GB 893 5643 79
+
+Invoice to:
+Korhan Özdemir
+Mimar Sinan Mahallesi/ Durbali cami sokak/ No:2 kat:1/Uskudar
+Istanbul
+34 34672
+Turkey
+
+
+
+Invoice for: PythonAnywhere account monthly subscription
+for account ReviewDetectorbot
+
+
+
+Total price: US$5.00
+
+
+
+Thanks for using our site!
+
+The PythonAnywhere team
+--
+PythonAnywhere: Develop and host Python from your browser
+https://www.pythonanywhere.com/
+
+A product from PythonAnywhere LLP
+17a Clerkenwell Road, London EC1M 5RD, UK
+VAT No.: GB 893 5643 79
+Email: support@pythonanywhere.com
+Registered in England and Wales as company number OC378414.
+Registered address: 28 Ely Place, 3rd Floor, London EC1N 6TD, UK
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="283a051a-c11a-42b3-8668-3ff7a355a7a8" name="Review Snail - Pythonanywhere" url="http://www.reviewsnail.com">
+        <fileTransfer rootFolder="/home/ReviewDetectorbot" accessType="SFTP" host="ssh.pythonanywhere.com" port="22" sshConfigId="1949d5eb-0a36-42b2-8eec-32bf0736f92d" sshConfig="ReviewDetectorbot@ssh.pythonanywhere.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

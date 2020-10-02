@@ -1,0 +1,4 @@
+name: Zehra Evrensel
+company name: Evrensel Ltd şti
+emails: zeraevrensel@gmail.com
+amazon: uk

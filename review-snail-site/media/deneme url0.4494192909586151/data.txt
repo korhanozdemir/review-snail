@@ -1,0 +1,4 @@
+name: deneme url
+company name: deneme url
+emails: aaaaa
+amazon: us
